@@ -1,38 +1,25 @@
-//alert("valeur");
+let a = 2;
+a = a - 1;
+console.log("var a doit être à 1 : " + a);
 
-let a, b, c, d, e, g, resultat;
+a++;
+console.log("var a doit être à 2 : " + a);
 
-a = 2;
-b = 8;
-b+= 2;
-c = a + b * b;
-d = a * b + b;
-e = a * (b + b);
-f = a * b / a;
-g = b / a * a
+let b = 8;
+b += 2;
+console.log("var b doit être à 10 : " + b);
 
-resultat = a - 1;
-console.log(resultat);
+let c = a + b * b;
+console.log("var c doit être à 102 : " + c);
 
+let d = a * b + b;
+console.log("var d doit être à 30 : " + d);
 
-resultat = a++
-console.log(resultat);
+let e = a * (b + b);
+console.log("var e doit être à 40 : " + e);
 
-resultat = b
-console.log(resultat);
+let f = a * b / a;
+console.log("var f doit être à 10 : " + f);
 
-resultat = c
-console.log(resultat);
-
-resultat = d
-console.log(resultat);
-
-resultat = e
-console.log(resultat);
-
-resultat = f
-console.log(resultat);
-
-resultat = g
-console.log(resultat);
-
+let g = b / a * a;
+console.log("var g doit être à 10 : " + f);
