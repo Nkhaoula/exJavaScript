@@ -1,18 +1,11 @@
-let moyenne = prompt('saisie la moyenne');
+let note = parseFloat(prompt("qu'elle est t'as moyenne ?")) ;
 
-if(moyenne < 10){
-    document.write('recalé');
-}else if(moyenne = 10){
-    document.write('reçu');
-}else if(moyenne > 10){
-    document.write('reçu');
-}else if(moyenne === 12){
-    document.write('reçu avec mention');
-}else if(moyenne > 12){
-    document.write('reçu');
-}else if(moyenne > 12){
-    document.write('reçu avec mention');
-}else if(moyenne > 20){
-    alert('erreur de saisie moyenne');
+if (note < 10 ){
+    alert("tu est recalé !"); 
+} else if ((note >= 10) && (note < 12)){
+    alert(" tu passe");
+} else if ((note >= 12 ) && (note <= 20 )){
+    alert("Bravo pour la mentions");
+}else {
+    alert("tu doit me donnez entre 0 est 20");
 }
-
